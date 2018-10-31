@@ -1,0 +1,9 @@
+HTML basic structure
+creating favicon
+cache is an issue for favicon,becarful
+
+
+tags 
+   - header 
+   -paragraph
+   -simple form structure
