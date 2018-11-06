@@ -1,3 +1,16 @@
-p{
+#header1{
+	color:orange;
+}
+
+.text{
+	background-color: #eee;
+}
+
+.header2{
+	color:indigo;
+}
+
+.importantOne{
 	color:red;
 }
+
