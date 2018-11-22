@@ -1,0 +1,37 @@
+ul{
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+a:hover{
+	color: red;
+}
+li{
+	float: left;
+	width: 25%;
+	background-color: yellow;
+	border: 1px solid black;
+	box-sizing: border-box;
+	text-align: center;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li:hover{
+	background-color:blue;
+}
+
+.box{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border: 1px solid black;
+	text-align: center;
+	padding: 20px;
+}
+.box:nth-child(even){
+	
+	background-color: tomato;
+}

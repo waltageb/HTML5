@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>Document</title>
+</head>
+<body> 
+	<h1>heading</h1>
+	<p>HELLO JQUERY</p>
+
+	<h2>heading 2</h2>
+	<p>another p element</p>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script>
+		
+		
+
+class person{
+	constructor(name,canDance){
+		this.name = name;
+		this.canDance = canDance;
+		this.speak = function(){
+			console.log('hello my name is ${this.name} and people say I can dance thats ${this.canDance}' ) ;
+		}
+	}
+}
+
+let davidObj = new person("David", true);
+let wadeObj = new person("Wade", false);
+wadeObj.canDance = true;
+let leo = new person("Leonid", false);
+let mike = new person(); 
+
+davidObj.speak();
+wadeObj.speak();
+leo.speak();
+
+
+
+
+
+	</script>
+
+</body>
+</html>

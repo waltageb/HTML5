@@ -1,0 +1,14 @@
+#checkthisForExternal{
+	background-color: #888;
+}
+
+
+.checkthatForExternal{
+	color:rgba(0,0,255,0.7);
+
+
+}
+
+body{
+	background-color: hsl(240,10,10);
+}

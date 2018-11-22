@@ -1,0 +1,35 @@
+table{ 
+ 	border-collapse: collapse 
+ }
+
+ table,td,tr{
+ 	border: 1px solid green;
+ }
+
+ tr:nth-child(odd){
+ 	background-color:lightgrey;
+ }
+ tr:nth-child(even){
+ 	background-color: grey;
+ }
+
+
+li{
+	list-style-type: none;
+}
+a:{
+	text-decoration:none;
+}
+a:link{
+	background-color: yellow;
+}
+a:visited{
+	background-color: grey;
+}
+a:hover{
+	color:black;
+	background-color: white;
+}
+a:active{
+	background-color: green;
+}

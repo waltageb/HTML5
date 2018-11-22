@@ -1,0 +1,86 @@
+
+ul{
+	padding:0px;
+}
+a{
+	text-decoration: none;
+	color: gray;
+}
+a:hover{
+	color: red;
+}
+li{
+	float: left;
+	width: 25%;
+	background-color: yellow;
+	border: 1px solid black;
+	box-sizing: border-box;
+	text-align: center;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+li:hover{
+	background-color:blue;
+}.quotes:before{
+	color:grey;
+	content :"Quote";
+}
+
+p:after{
+	color:grey;
+     content:"\21E2 Albert Einstein";
+}
+
+p{
+
+	color:red;
+}
+
+#firstpar{
+	background-color: lightgoldenrodyellow;
+	margin:1px;
+	border: 1px solid red;
+}
+#secondpar{
+    background-color:skyblue;
+    margin: 2px;
+    border: 1px solid red;
+
+}
+
+input{
+	margin: 3px;
+	border: 1px dashed green;
+	padding: 10px;  
+}
+
+#test{
+	width: calc(100%-40px);
+	background:purple ;
+	margin: 40px;
+}
+
+div{
+	width: 100px;
+	height: 100px;
+	background-color:lightgrey;
+
+}
+
+span{
+	background-color:;
+	width:100px;
+	height: 100px;
+   /*display: inline-block;*/
+	text-align: center;
+}
+
+a{
+	background-color: yellow;
+	width:200px;
+	height: 200px;
+	display
+
+	text-align:center;
+}

@@ -1,0 +1,36 @@
+*{
+
+  padding: 3px;
+  margin: 0 3%;
+}
+
+a{
+  font-size: 32px;
+  text-decoration: none;
+
+}
+
+li{
+  list-style-type: none;
+  float:left;
+  width:15%;
+}
+nav{
+  position: sticky;
+  top:0px;
+  background-color: rgba(000,000,000,0.11);
+}
+nav::after{
+  content: "";
+  display:block;
+  clear:left;
+  margin-bottom:25px;
+
+}
+
+/*nav::before{
+  content:"";
+  display:block;
+  clear: both;
+  margin-bottom: 25px;
+}

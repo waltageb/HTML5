@@ -1,0 +1,41 @@
+*{
+  margin: 0px;
+  margin-bottom: 0px
+
+}
+
+.box{
+  width: 60px;
+  height: 60px;
+  background: lightblue;
+  margin-bottom:10px;
+}
+.box:nth-of-type(3){
+  background: rgba(0,0,0,0.4);
+}
+
+.relative{
+  position: relative;
+  right: 0px;
+  left:10;
+}
+
+mark{
+  position: relative;
+  top: 10px
+}
+
+.parent{
+  postion: relative;
+}
+
+.absolute{
+  position: absolute;
+  left: 150px;
+}
+
+.fixed{
+  position: fixed;
+  top:0px;
+  right:0px;
+}
